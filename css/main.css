@@ -121,9 +121,11 @@ body {
     width: 100%;
     padding-top: calc(var(--index) * 7.5);
     z-index: -1;
+    position: relative;
 }
 
 .info {
+    overflow: hidden;
     position: relative;
     width: calc(var(--index) * 35);
     height: 80vh;
